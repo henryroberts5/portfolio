@@ -13,53 +13,95 @@
 header {
 	text-align: center;
 	background-color: #EF2917;
-	font-size: 50px;
+	font-size: 55px;
 	font-family: 'Lobster', sans-serif;
 	text-decoration: 
 }
 h1 {
-	background-color: #266DD3;
+	background-color: #00008B;
 	font-family: 'josefin-sans', sans-serif;
 }
    
 h2 {
-	background-color: #81E979;
-	font-family: 'josefin-sans', sans-serif; 
+	font-family: 'josefin-sans', sans-serif;
 }
 a {
+	position: relative; left: 6px; 
 	background-color: #fff;
 	font-size: 20px;
-	position: relative; left: 6px;
 }
 p {
 	line-height: -100px;
 }
 .photo {
-	position: relative; top: 0px; 
+	position: relative; top: 50px; 
 	position: relative; left: -9px;
 }
 .resume {
-	position: relative; top: 500px;
+	position: relative; top: 100px;
 }
 .picture {
 	position: relative; left: -120px;
+	position: relative; top: 50px;
 }
 .tiger {
+	position: relative; top: 50px;
 	position: relative; right: -90px;
 }
 .twitter {
-	position: relative; top: 20px;
+	position: relative; top: 30px;
 	position: relative; left: 150px;
 }
 .end {
-	position: relative; left: 297px;
-	position: relative; bottom: -20px;
+	position: relative; left: 512px;
+	position: relative; bottom: -190px;
 }
 .chick {
 	position: relative; right: -133px;
 }
 .col-md-1 {
-	position: relative; top: -40px;
+	position: relative; top: 20px;
 	position: relative; left: 145px;
 	text-decoration: underline;
+}
+.col-md-2 {
+	position: relative; top: 20px;
+}
+footer .content p {
+    margin-bottom: 0
+}
+body {
+	background-color: #00008B;
+}
+@media only screen and (max-width: 600px) {
+	body {
+
+	}
+	.end {
+		position: relative; left: 300px;
+	}
+	.twitter {
+		position: relative; left: 50px;
+		position: relative; top: 20px;
+	}
+	.col-md-1 {
+		position: relative; top: -80px;
+		position: relative; left: -7px;
+	}
+	.picture {
+		position: relative; top: 70px;
+		position: relative; left: 45px;
+	}
+	.photo {
+		position: relative; top: 130px;
+		position: relative; left: 77px;
+	}
+	.tiger {
+		position: relative; top: 200px;
+		position: relative; left: 68px;
+	}
+	a {
+		position: relative; top: 100px;
+		position: relative; left: -170px;
+	}
 }
